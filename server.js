@@ -52,7 +52,7 @@ app.get('/about',(req, res)=>{
 
 });
 
-app.get('/projects',(req,res)=>{
+app.get('/project',(req,res)=>{
    res.render('project.hbs',{
        titlePage: 'Project Page'
    }) ;
